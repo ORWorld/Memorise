@@ -1,0 +1,88 @@
+/* Reset default margin and padding for all elements */
+body,
+h1,
+p,
+textarea,
+button,
+div {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Basic styles for the container */
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#alternate-word {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5d7a5;
+    font-size: xx-large;
+}
+
+/* Styles for the heading */
+h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: rgb(28, 46, 93);
+}
+
+/* Styles for the text area */
+textarea {
+    width: 90%;
+    height: 90vh;
+    padding: 10px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+/* Styles for the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the button on hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+#go-back-button {
+    margin-top: 100px;
+}
+
+/* Styles for the entered text paragraph */
+#entered-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the alternate words */
+.light-gray {
+    color: #ccc;
+}
+
+/* Styles for matched words (in green) */
+.green {
+    color: green;
+}
+
+/* Styles for unmatched words (in red) */
+.red {
+    color: red;
+}
