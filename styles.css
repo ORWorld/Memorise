@@ -4,6 +4,7 @@ h1,
 p,
 textarea,
 button,
+span,
 div {
     margin: 5px;
     padding: 5px;
@@ -11,24 +12,27 @@ div {
 
 /* Basic styles for the container */
 .container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     background-color: #f0f0f0;
 }
 
 #alternate-word {
     height: 90vh;
-    width: 100%;
-    display: flex;
+    width: 90%;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #d5d7a5;
-    font-size: xx-large;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
 }
 
 /* Styles for the heading */
